@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fin metadatos-->
+    <!--Adicionales-->
+    <link rel="shortcut icon" href="recursos/icon.ico" type="image/x-icon"> <!--Favicon-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous"> <!--CDN font awesome-->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Parisienne&family=Pinyon+Script&family=Quicksand:wght@300&display=swap" rel="stylesheet"><!--google fonts-->
+    <!--fin adicionales-->
+    <!--Estilos-->
+    <link rel="stylesheet" href="estilos/normalize.css"> <!--Normalizador html-->
+    <link rel="stylesheet" href="estilos/style.css">
+    <!--Fin estilos-->
+    <title>Suscripción Yacht Club</title>
+</head>
+<body>
+    <nav class="fondo-negro letras-blancas estilo-caja solo-flex flex-centrar estilo-link fijar">
+        <span><a href="index.html">Inicio</a></span>
+        <span><a href="info.html">El club</a></span>
+        <span><a href="eventos.html">Eventos</a></span>
+        <span><a href="galeria.html">Galeria</a></span>
+        <span><a href="suscribir.html" class="resaltar animar-palabra">Unirse</a></span>
+    </nav>
+    <main>
+        <div>
+            <h1 class="titulos letra-montserrat">Forme parte del club</h1>            
+        </div>
+        <hr class="separacion solo-flex">
+        <div class="caja2 letra-montserrat solo-flex flex-centrar">
+            <div class="caja-formulario">
+                <form action="#">
+
+                    <div class="caja-detalles solo-flex">
+                        <div class="entradas">
+                            <span class="detalles">Nombre </span>
+                            <input type="text" placeholder="Nombre" required>
+                        </div>
+
+                        <div class="entradas">
+                            <span class="detalles">Apellido</span>
+                            <input type="text" placeholder="Apellido" required>
+                        </div>
+
+                        <div class="entradas">
+                            <span class="detalles" >Nacionalidad</span>
+                            <input type="text" placeholder="Nacionalidad" required>
+                        </div>
+
+                        <div class="entradas">
+                            <span class="detalles">Email</span>
+                            <input type="text" placeholder="Email" required>
+                        </div>
+
+                        <div class="entradas">
+                            <span class="detalles">Telefono</span>
+                            <input type="text" placeholder="Telefono">
+                        </div>
+
+                        <div class="entradas">
+                            <span class="detalles">Nombre del navio</span>
+                            <input type="text" placeholder="Navio">
+                        </div>
+                    </div>
+
+                    <div class="motivos">
+                        <span class="motivo-titulo">Razones para la suscripcion</span>
+                        <div class="motivo solo-flex">
+                            
+                            <div class="checkbox">
+                                <input class="checkbox" type="checkbox" name="comprar/vender" id="trade">
+                                <label for="trade">Compra/Venta</label>
+                            </div>
+
+                            <div class="checkbox">
+                                <input class="checkbox" type="checkbox" name="asistir" id="eventos">
+                                <label for="eventos">Eventos</label>
+                            </div>   
+
+                            <div class="checkbox">
+                                <input class="checkbox" type="checkbox" name="otros" id="otros"> 
+                                <label for="otros">Otros</label>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="btn">
+                        <input type="submit" value="Enviar">   
+                    </div>
+                </form>
+            </div>      
+        </div>
+    </main>
+    <footer class="fondo-negro letras-blancas estilo-caja solo-flex flex-centrar estilo-link fijar foot">
+        <span>Nuestras redes</span>
+        <span>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.tumblr.com" target="_blank"><i class="fab fa-tumblr-square"></i></a>
+        </span>
+        <span>Copyright</span>
+    </footer>
+</body>
+</html>
